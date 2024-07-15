@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/public/image/Rajini.jpg);
+  background-size: cover;
+  background-color: aqua;
+  color: rgb(243, 242, 242);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #282fb0aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #8f2020;
+}
+#h1{
+  color: aqua;
+  font-size: 30px;
+  margin-left: 20px;
+}
+#h2{
+  margin-left: 20%;
+  font-size: x-large;
+}
+#bu{
+  background-color: rgba(250, 235, 215, 0.145);
+  margin-left: 10px;
+  border-radius: 20px;
+}
